@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffett Value Scanner</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #fff;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header { 
+            text-align: center; 
+            padding: 40px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 40px;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .subtitle { color: #8892b0; font-size: 1.1rem; }
+        .timestamp { color: #64ffda; font-size: 0.9rem; margin-top: 10px; }
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+            gap: 20px; 
+        }
+        .card { 
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 24px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .card:hover { 
+            transform: translateY(-4px); 
+            border-color: #64ffda;
+        }
+        .card h3 { 
+            font-size: 1.8rem; 
+            color: #64ffda;
+            margin-bottom: 8px;
+        }
+        .card .name { 
+            color: #8892b0; 
+            font-size: 0.95rem; 
+            margin-bottom: 16px;
+            min-height: 40px;
+        }
+        .metric { 
+            display: flex; 
+            justify-content: space-between; 
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .metric:last-child { border-bottom: none; }
+        .label { color: #8892b0; }
+        .value { color: #e6f1ff; font-weight: 600; }
+        .no-picks { 
+            text-align: center; 
+            padding: 60px 20px; 
+            color: #8892b0;
+            font-size: 1.2rem;
+        }
+        .criteria { 
+            background: rgba(100, 255, 218, 0.1);
+            border: 1px solid rgba(100, 255, 218, 0.3);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .criteria h2 { color: #64ffda; margin-bottom: 12px; font-size: 1.3rem; }
+        .criteria ul { 
+            list-style: none; 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 8px;
+        }
+        .criteria li { color: #8892b0; font-size: 0.9rem; }
+        .criteria li::before { content: "✓ "; color: #64ffda; }
+        .footer { 
+            text-align: center; 
+            padding: 40px 0; 
+            color: #8892b0;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Buffett Value Scanner</h1>
+            <p class="subtitle">Scanning 37 quality stocks for Buffett-style value opportunities</p>
+            <p class="timestamp">Last updated: 2026-06-18 01:08</p>
+        </header>
+        
+        <div class="criteria">
+            <h2>Screening Criteria</h2>
+            <ul>
+                <li>ROE > 15%</li>
+                <li>P/E Ratio < 25</li>
+                <li>Debt/Equity < 0.5</li>
+                <li>Market Cap > $10B</li>
+                <li>Positive Free Cash Flow</li>
+            </ul>
+        </div>
+        
+        <h2 style="margin-bottom: 20px; color: #64ffda;">Today's Picks (1)</h2>
+        <div class="grid">
+            
+        <div class="card">
+            <h3>MSFT</h3>
+            <p class="name">Microsoft Corporation</p>
+            <div class="metric"><span class="label">Price</span><span class="value">$378.91</span></div>
+            <div class="metric"><span class="label">P/E</span><span class="value">22.6</span></div>
+            <div class="metric"><span class="label">ROE</span><span class="value">34.0%</span></div>
+            <div class="metric"><span class="label">D/E</span><span class="value">30.27</span></div>
+        </div>
+        
+        </div>
+        
+        <div class="footer">
+            <p>Built for Joshua | Auto-refreshes daily at 9:00 AM</p>
+        </div>
+    </div>
+</body>
+</html>

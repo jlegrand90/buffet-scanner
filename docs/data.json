@@ -1,0 +1,387 @@
+{
+  "timestamp": "2026-06-18T01:08:30.932815",
+  "picks": [
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 378.91,
+      "pe": 22.581049,
+      "roe": 34.013999,
+      "debt_equity": 30.271,
+      "market_cap": 2814708285440,
+      "fcf": 37011251200
+    }
+  ],
+  "all_data": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "price": 295.95,
+      "pe": 35.8293,
+      "roe": 1.4147099,
+      "debt_equity": 79.548,
+      "market_cap": 4346723172352,
+      "fcf": 101090746368
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 378.91,
+      "pe": 22.581049,
+      "roe": 34.013999,
+      "debt_equity": 30.271,
+      "market_cap": 2814708285440,
+      "fcf": 37011251200
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "price": 363.79,
+      "pe": 27.77023,
+      "roe": 38.884997,
+      "debt_equity": 20.026,
+      "market_cap": 4439174283264,
+      "fcf": 27921750016
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 237.5,
+      "pe": 30.56628,
+      "roe": 24.285,
+      "debt_equity": 53.3,
+      "market_cap": 2554813480960,
+      "fcf": 9806624768
+    },
+    {
+      "ticker": "BRK.B",
+      "name": "BRK.B",
+      "price": null,
+      "pe": null,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": null,
+      "fcf": null
+    },
+    {
+      "ticker": "JPM",
+      "name": "JP Morgan Chase & Co.",
+      "price": 333.46,
+      "pe": 15.962662,
+      "roe": 16.465001,
+      "debt_equity": null,
+      "market_cap": 893509828608,
+      "fcf": null
+    },
+    {
+      "ticker": "V",
+      "name": "Visa Inc.",
+      "price": 330.38,
+      "pe": 28.82897,
+      "roe": 60.349,
+      "debt_equity": 67.233,
+      "market_cap": 628298088448,
+      "fcf": 20839749632
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "price": 234.2,
+      "pe": 27.13789,
+      "roe": 26.416,
+      "debt_equity": 67.73,
+      "market_cap": 563770163200,
+      "fcf": 12511375360
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "price": 399.53,
+      "pe": 30.062452,
+      "roe": 12.175999599999999,
+      "debt_equity": 73.982,
+      "market_cap": 362830921728,
+      "fcf": 17687500800
+    },
+    {
+      "ticker": "PG",
+      "name": "Procter & Gamble Company (The)",
+      "price": 150.56,
+      "pe": 21.979563,
+      "roe": 31.112000000000002,
+      "debt_equity": 67.651,
+      "market_cap": 350593875968,
+      "fcf": 12733750272
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard Incorporated",
+      "price": 492.99,
+      "pe": 28.496532,
+      "roe": 2.32076,
+      "debt_equity": 282.059,
+      "market_cap": 435598000128,
+      "fcf": 16148124672
+    },
+    {
+      "ticker": "HD",
+      "name": "Home Depot, Inc. (The)",
+      "price": 327.48,
+      "pe": 23.242016,
+      "roe": 1.2838,
+      "debt_equity": 459.356,
+      "market_cap": 326535774208,
+      "fcf": 10128249856
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "price": 177.58,
+      "pe": 30.883478,
+      "roe": 6.638,
+      "debt_equity": 23.989,
+      "market_cap": 353667907584,
+      "fcf": 11776499712
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck & Company, Inc.",
+      "price": 115.44,
+      "pe": 32.51831,
+      "roe": 18.944,
+      "debt_equity": 106.936,
+      "market_cap": 285116563456,
+      "fcf": 14049250304
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie Inc.",
+      "price": 221.23,
+      "pe": 107.917076,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 390867582976,
+      "fcf": 20811624448
+    },
+    {
+      "ticker": "KO",
+      "name": "Coca-Cola Company (The)",
+      "price": 79.93,
+      "pe": 25.13522,
+      "roe": 43.372001999999995,
+      "debt_equity": 124.943,
+      "market_cap": 343897407488,
+      "fcf": 3124250112
+    },
+    {
+      "ticker": "PEP",
+      "name": "Pepsico, Inc.",
+      "price": 141.59,
+      "pe": 22.227629,
+      "roe": 43.879002,
+      "debt_equity": 244.837,
+      "market_cap": 193545158656,
+      "fcf": 8746250240
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco Wholesale Corporation",
+      "price": 965.59,
+      "pe": 48.693394,
+      "roe": 29.152,
+      "debt_equity": 60.257,
+      "market_cap": 428218712064,
+      "fcf": 6954375168
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart Inc.",
+      "price": 118.13,
+      "pe": 41.59507,
+      "roe": 24.132,
+      "debt_equity": 74.816,
+      "market_cap": 940087836672,
+      "fcf": 6862249984
+    },
+    {
+      "ticker": "MCD",
+      "name": "McDonald's Corporation",
+      "price": 283.82,
+      "pe": 23.417492,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 201655779328,
+      "fcf": 5952249856
+    },
+    {
+      "ticker": "DIS",
+      "name": "Walt Disney Company (The)",
+      "price": 100.86,
+      "pe": 16.1376,
+      "roe": 11.01,
+      "debt_equity": 41.069,
+      "market_cap": 175144550400,
+      "fcf": 3751375104
+    },
+    {
+      "ticker": "VZ",
+      "name": "Verizon Communications Inc.",
+      "price": 45.84,
+      "pe": 11.180488,
+      "roe": 17.198,
+      "debt_equity": 192.045,
+      "market_cap": 191407620096,
+      "fcf": 19608500224
+    },
+    {
+      "ticker": "T",
+      "name": "AT&T Inc.",
+      "price": 22.44,
+      "pe": 7.3815794,
+      "roe": 18.370001,
+      "debt_equity": 125.175,
+      "market_cap": 155920728064,
+      "fcf": 8849000448
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America Corporation",
+      "price": 56.53,
+      "pe": 14.027294,
+      "roe": 10.644,
+      "debt_equity": null,
+      "market_cap": 401170268160,
+      "fcf": null
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo & Company",
+      "price": 83.81,
+      "pe": 12.953632,
+      "roe": 12.028,
+      "debt_equity": null,
+      "market_cap": 256474464256,
+      "fcf": null
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup, Inc.",
+      "price": 143.78,
+      "pe": 17.772558,
+      "roe": 7.649,
+      "debt_equity": null,
+      "market_cap": 245227847680,
+      "fcf": null
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs Group, Inc. (The)",
+      "price": 1099.14,
+      "pe": 20.075617,
+      "roe": 14.548,
+      "debt_equity": 678.596,
+      "market_cap": 324254466048,
+      "fcf": null
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "price": 224.96,
+      "pe": 20.376812,
+      "roe": 16.387999999999998,
+      "debt_equity": 502.246,
+      "market_cap": 354826027008,
+      "fcf": null
+    },
+    {
+      "ticker": "BLK",
+      "name": "BlackRock, Inc.",
+      "price": 1057.38,
+      "pe": 26.587378,
+      "roe": 11.8990004,
+      "debt_equity": 23.635,
+      "market_cap": 172192759808,
+      "fcf": 7082375168
+    },
+    {
+      "ticker": "SPG",
+      "name": "Simon Property Group, Inc.",
+      "price": 209.86,
+      "pe": 14.593881,
+      "roe": 1.1359,
+      "debt_equity": 457.473,
+      "market_cap": 79742525440,
+      "fcf": 2494690560
+    },
+    {
+      "ticker": "O",
+      "name": "Realty Income Corporation",
+      "price": 60.57,
+      "pe": 49.64754,
+      "roe": 2.831,
+      "debt_equity": 73.467,
+      "market_cap": 56481071104,
+      "fcf": 1797902592
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target Corporation",
+      "price": 127.81,
+      "pe": 16.906084,
+      "roe": 22.015,
+      "debt_equity": 117.548,
+      "market_cap": 58050162688,
+      "fcf": 3141250048
+    },
+    {
+      "ticker": "LOW",
+      "name": "Lowe's Companies, Inc.",
+      "price": 217.27,
+      "pe": 18.366018,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 121888473088,
+      "fcf": 4816124928
+    },
+    {
+      "ticker": "NKE",
+      "name": "Nike, Inc.",
+      "price": 44.19,
+      "pe": 29.072369,
+      "roe": 16.016,
+      "debt_equity": 79.333,
+      "market_cap": 65440395264,
+      "fcf": 1313874944
+    },
+    {
+      "ticker": "SBUX",
+      "name": "Starbucks Corporation",
+      "price": 99.82,
+      "pe": 76.19848,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 113764851712,
+      "fcf": -1304087552
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "price": 121.1,
+      "pe": null,
+      "roe": -2.911,
+      "debt_equity": 36.028,
+      "market_cap": 608648560640,
+      "fcf": -8301250048
+    },
+    {
+      "ticker": "IBM",
+      "name": "International Business Machines",
+      "price": 262.35,
+      "pe": 23.23738,
+      "roe": 35.772,
+      "debt_equity": 211.169,
+      "market_cap": 246578921472,
+      "fcf": 13080750080
+    }
+  ]
+}
