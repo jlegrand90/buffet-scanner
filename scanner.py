@@ -115,6 +115,12 @@ def generate_html(picks, all_data):
             <div class="metric"><span class="label">P/E</span><span class="value">{pick['pe']:.1f}</span></div>
             <div class="metric"><span class="label">ROE</span><span class="value">{pick['roe']:.1f}%</span></div>
             <div class="metric"><span class="label">D/E</span><span class="value">{pick['debt_equity']:.2f}</span></div>
+            <div class="descriptors">
+                <div class="descriptor"><span class="desc-label">Price</span><span class="desc-text">Current share price</span></div>
+                <div class="descriptor"><span class="desc-label">P/E</span><span class="desc-text">Price-to-earnings ratio (value &lt; 25)</span></div>
+                <div class="descriptor"><span class="desc-label">ROE</span><span class="desc-text">Return on equity (profitability &gt; 15%)</span></div>
+                <div class="descriptor"><span class="desc-label">D/E</span><span class="desc-text">Debt-to-equity (low debt &lt; 0.5)</span></div>
+            </div>
         </div>
         """
     
@@ -182,6 +188,22 @@ def generate_html(picks, all_data):
         .metric:last-child {{ border-bottom: none; }}
         .label {{ color: #8892b0; }}
         .value {{ color: #e6f1ff; font-weight: 600; }}
+        .descriptors {{ 
+            margin-top: 16px; 
+            padding-top: 16px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }}
+        .descriptor {{ 
+            margin-bottom: 8px; 
+            font-size: 0.8rem;
+        }}
+        .descriptor:last-child {{ margin-bottom: 0; }}
+        .desc-label {{ 
+            color: #64ffda; 
+            font-weight: 600;
+            margin-right: 4px;
+        }}
+        .desc-text {{ color: #8892b0; font-size: 0.75rem; line-height: 1.3; }}
         .no-picks {{ 
             text-align: center; 
             padding: 60px 20px; 
