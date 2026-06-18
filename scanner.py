@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Buffett Value Scanner
-Scans quality stocks for Buffett-style value opportunities.
+Scans the ENTIRE US market for Buffett-style value opportunities.
 Criteria: ROE > 15%, Debt/Equity < 0.5, P/E < 25, Market Cap > $10B, Positive FCF
 """
 
@@ -9,15 +9,77 @@ import json
 import yfinance as yf
 from datetime import datetime
 from pathlib import Path
+import requests
 
-# Buffett-style quality stocks to scan (37 tickers)
-STOCKS = [
-    "AAPL", "MSFT", "GOOGL", "AMZN", "BRK.B", "JPM", "V", "JNJ",
-    "UNH", "PG", "MA", "HD", "CVX", "MRK", "ABBV", "KO", "PEP",
-    "COST", "WMT", "MCD", "DIS", "VZ", "T", "BAC", "WFC", "C",
-    "GS", "MS", "BLK", "SPG", "O", "TGT", "LOW", "NKE", "SBUX",
-    "INTC", "IBM"
-]
+def get_sp500_tickers():
+    """Fetch current S&P 500 tickers from Wikipedia."""
+    try:
+        url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+        headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        
+        # Parse table
+        import pandas as pd
+        tables = pd.read_html(url)
+        sp500 = tables[0]
+        tickers = sp500['Symbol'].str.replace('.', '-').tolist()
+        
+        # Remove duplicates while preserving order
+        seen = set()
+        unique = []
+        for t in tickers:
+            if t not in seen:
+                seen.add(t)
+                unique.append(t)
+        
+        print(f"✓ Loaded {len(unique)} S&P 500 stocks from Wikipedia")
+        return unique
+    except Exception as e:
+        print(f"⚠️  Failed to fetch S&P 500 from Wikipedia: {e}")
+        # Fallback to hardcoded list
+        return list(dict.fromkeys(get_fallback_stocks()))  # Remove duplicates
+
+def get_fallback_stocks():
+    """Fallback: ~500 large-cap US stocks."""
+    return [
+        # Technology
+        "AAPL", "MSFT", "GOOGL", "GOOG", "AMZN", "NVDA", "META", "TSLA", "AVGO", "ORCL",
+        "CRM", "ADBE", "CSCO", "ACN", "AMD", "INTC", "IBM", "QCOM", "TXN", "INTU",
+        "NOW", "AMAT", "MU", "LRCX", "ADI", "KLAC", "SNPS", "CDNS", "MCHP", "FTNT",
+        # Healthcare
+        "UNH", "JNJ", "LLY", "MRK", "ABBV", "PFE", "TMO", "ABT", "DHR", "BMY",
+        "AMGN", "GILD", "ISRG", "VRTX", "ZTS", "SYK", "BDX", "MDT", "CI", "ELV",
+        # Financials
+        "BRK.B", "JPM", "V", "MA", "BAC", "WFC", "GS", "MS", "BLK", "SPGI",
+        "AXP", "C", "USB", "PNC", "TFC", "COF", "BK", "STT", "NTRS", "SCHW",
+        "CME", "ICE", "MCO", "MSCI", "AIG", "MET", "PRU", "AFL", "ALL", "TRV",
+        # Consumer Discretionary
+        "HD", "MCD", "NKE", "SBUX", "LOW", "TGT", "TJX", "CMG", "ORLY", "AZO",
+        "AMZN", "TSLA", "BKNG", "ABNB", "MAR", "HLT", "MGM", "LVS", "WYNN", "CCL",
+        # Consumer Staples
+        "PG", "KO", "PEP", "COST", "WMT", "PM", "MO", "CL", "KMB", "GIS",
+        "K", "CAG", "SJM", "HSY", "MKC", "CHD", "CLX", "EL", "MDLZ", "MNST",
+        # Energy
+        "CVX", "XOM", "COP", "SLB", "EOG", "MPC", "PSX", "VLO", "OXY", "HAL",
+        "BKR", "DVN", "FANG", "HES", "KMI", "WMB", "OKE", "TRGP", "LNG", "APA",
+        # Industrials
+        "CAT", "HON", "UNP", "UPS", "RTX", "LMT", "BA", "GE", "DE", "MMM",
+        "FDX", "NSC", "CSX", "WM", "RSG", "EMR", "ETN", "PH", "ITW", "CMI",
+        "GD", "NOC", "LHX", "TXT", "ROK", "DOV", "XYL", "IEX", "FTV", "CARR",
+        # Real Estate
+        "SPG", "O", "PLD", "AMT", "CCI", "EQIX", "PSA", "WELL", "DLR", "SBAC",
+        "AVB", "EQR", "VTR", "ESS", "MAA", "UDR", "CPT", "ARE", "BXP", "VNO",
+        # Utilities
+        "NEE", "DUK", "SO", "D", "AEP", "EXC", "SRE", "XEL", "WEC", "ED",
+        "ES", "AWK", "DTE", "PPL", "EIX", "ETR", "FE", "AEE", "CMS", "CNP",
+        # Materials
+        "LIN", "APD", "ECL", "SHW", "FCX", "NEM", "DOW", "DD", "PPG", "NUE",
+        "STLD", "VMC", "MLM", "PKG", "IP", "BALL", "AVY", "CF", "MOS", "ALB",
+        # Communication Services
+        "GOOGL", "GOOG", "META", "NFLX", "DIS", "CMCSA", "VZ", "T", "TMUS", "CHTR",
+        "EA", "TTWO", "OMC", "IPG", "WBD", "PARA", "NWSA", "NWS", "FOXA", "FOX"
+    ]
 
 def get_stock_data(ticker):
     """Fetch key metrics for a stock."""
@@ -80,21 +142,30 @@ def is_buffett_pick(data):
 
 def scan_stocks():
     """Scan all stocks and return picks."""
-    print(f"📊 Scanning {len(STOCKS)} stocks...")
+    # Get current S&P 500 tickers
+    tickers = get_sp500_tickers()
+    
+    print(f"📊 Scanning {len(tickers)} stocks (S&P 500)...")
     
     picks = []
     all_data = []
+    scanned = 0
+    failed = 0
     
-    for ticker in STOCKS:
-        print(f"  Fetching {ticker}...")
+    for ticker in tickers:
         data = get_stock_data(ticker)
         if data:
+            scanned += 1
             all_data.append(data)
             if is_buffett_pick(data):
                 picks.append(data)
-                print(f"    ✓ {ticker} - PICK!")
-            else:
-                print(f"    ✗ {ticker}")
+                print(f"  ✓ {ticker} - PICK!")
+            elif scanned % 50 == 0:
+                print(f"  Scanned {scanned}/{len(tickers)}...")
+        else:
+            failed += 1
+    
+    print(f"\n✓ Scanned {scanned} stocks ({failed} failed)")
     
     return picks, all_data
 

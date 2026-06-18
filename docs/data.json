@@ -1,6 +1,16 @@
 {
-  "timestamp": "2026-06-18T01:26:34.589143",
+  "timestamp": "2026-06-18T01:34:26.437732",
   "picks": [
+    {
+      "ticker": "ALL",
+      "name": "Allstate Corporation (The)",
+      "price": 221.66,
+      "pe": 4.903982,
+      "roe": 45.221000000000004,
+      "debt_equity": 23.719,
+      "market_cap": 57059921920,
+      "fcf": 12428999680
+    },
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
@@ -10,6 +20,116 @@
       "debt_equity": 30.271,
       "market_cap": 2814708285440,
       "fcf": 37011251200
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "price": 567.58,
+      "pe": 20.646782,
+      "roe": 32.930002,
+      "debt_equity": 35.608,
+      "market_cap": 1440758366208,
+      "fcf": 25558249472
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries Holdings, Inc.",
+      "price": 105.85,
+      "pe": 9.536036,
+      "roe": 27.3,
+      "debt_equity": 43.847,
+      "market_cap": 16261658624,
+      "fcf": 1076375040
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont Corporation",
+      "price": 105.67,
+      "pe": 13.705577,
+      "roe": 25.832,
+      "debt_equity": 15.762,
+      "market_cap": 112808296448,
+      "fcf": 9804874752
+    },
+    {
+      "ticker": "TRV",
+      "name": "The Travelers Companies, Inc.",
+      "price": 306.07,
+      "pe": 9.106516,
+      "roe": 25.272,
+      "debt_equity": 28.975,
+      "market_cap": 65084162048,
+      "fcf": 13304375296
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture plc",
+      "price": 156.01,
+      "pe": 12.787704,
+      "roe": 24.762999999999998,
+      "debt_equity": 25.469,
+      "market_cap": 96014032896,
+      "fcf": 12164313088
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit Inc.",
+      "price": 269.08,
+      "pe": 16.427351,
+      "roe": 22.496,
+      "debt_equity": 33.448,
+      "market_cap": 73603334144,
+      "fcf": 5232000000
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources, Inc.",
+      "price": 133.25,
+      "pe": 13.102262,
+      "roe": 18.195,
+      "debt_equity": 26.873,
+      "market_cap": 70972751872,
+      "fcf": 2864250112
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics Corporation",
+      "price": 362.83,
+      "pe": 22.55003,
+      "roe": 17.974001,
+      "debt_equity": 37.701,
+      "market_cap": 98120179712,
+      "fcf": 5289500160
+    },
+    {
+      "ticker": "AFL",
+      "name": "AFLAC Incorporated",
+      "price": 116.24,
+      "pe": 13.284572,
+      "roe": 16.469,
+      "debt_equity": 48.276,
+      "market_cap": 59164401664,
+      "fcf": 4923125248
+    },
+    {
+      "ticker": "CME",
+      "name": "CME Group Inc.",
+      "price": 252.54,
+      "pe": 21.94092,
+      "roe": 15.919,
+      "debt_equity": 14.059,
+      "market_cap": 91248443392,
+      "fcf": 3030237440
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy Corporation",
+      "price": 239.77,
+      "pe": 17.501461,
+      "roe": 15.85,
+      "debt_equity": 42.664,
+      "market_cap": 71195574272,
+      "fcf": 4786625024
     }
   ],
   "all_data": [
@@ -44,6 +164,16 @@
       "fcf": 27921750016
     },
     {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "price": 362.1,
+      "pe": 27.64122,
+      "roe": 38.884997,
+      "debt_equity": 20.026,
+      "market_cap": 4418551939072,
+      "fcf": 27921750016
+    },
+    {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
       "price": 237.5,
@@ -52,6 +182,456 @@
       "debt_equity": 53.3,
       "market_cap": 2554813480960,
       "fcf": 9806624768
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 204.65,
+      "pe": 31.339968,
+      "roe": 1.14288,
+      "debt_equity": 6.555,
+      "market_cap": 4956827418624,
+      "fcf": 46335873024
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "price": 567.58,
+      "pe": 20.646782,
+      "roe": 32.930002,
+      "debt_equity": 35.608,
+      "market_cap": 1440758366208,
+      "fcf": 25558249472
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "price": 396.38,
+      "pe": 363.65137,
+      "roe": 4.901,
+      "debt_equity": 18.738,
+      "market_cap": 1488693755904,
+      "fcf": 5251999744
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "price": 392.9,
+      "pe": 65.15754,
+      "roe": 37.280998,
+      "debt_equity": 74.018,
+      "market_cap": 1869253312512,
+      "fcf": 27212249088
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "price": 183.53,
+      "pe": 31.426369,
+      "roe": 53.376000000000005,
+      "debt_equity": 362.758,
+      "market_cap": 527840739328,
+      "fcf": -20337874944
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce, Inc.",
+      "price": 155.02,
+      "pe": 17.94213,
+      "roe": 16.908,
+      "debt_equity": 124.282,
+      "market_cap": 126961385472,
+      "fcf": 16552999936
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "price": 196.28,
+      "pe": 11.228833,
+      "roe": 62.953996999999994,
+      "debt_equity": 61.443,
+      "market_cap": 78021296128,
+      "fcf": 9218374656
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "price": 117.33,
+      "pe": 39.11,
+      "roe": 25.229000000000003,
+      "debt_equity": 67.541,
+      "market_cap": 462448525312,
+      "fcf": 9288375296
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture plc",
+      "price": 156.01,
+      "pe": 12.787704,
+      "roe": 24.762999999999998,
+      "debt_equity": 25.469,
+      "market_cap": 96014032896,
+      "fcf": 12164313088
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "price": 512.48,
+      "pe": 171.39798,
+      "roe": 8.062999999999999,
+      "debt_equity": 6.005,
+      "market_cap": 835650125824,
+      "fcf": 7173374976
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "price": 121.1,
+      "pe": null,
+      "roe": -2.911,
+      "debt_equity": 36.028,
+      "market_cap": 608648560640,
+      "fcf": -8301250048
+    },
+    {
+      "ticker": "IBM",
+      "name": "International Business Machines",
+      "price": 262.35,
+      "pe": 23.23738,
+      "roe": 35.772,
+      "debt_equity": 211.169,
+      "market_cap": 246578921472,
+      "fcf": 13080750080
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated",
+      "price": 212.97,
+      "pe": 22.92465,
+      "roe": 36.083,
+      "debt_equity": 55.979,
+      "market_cap": 224470384640,
+      "fcf": 9589624832
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated",
+      "price": 301.88,
+      "pe": 51.69178,
+      "roe": 32.347,
+      "debt_equity": 83.741,
+      "market_cap": 274738823168,
+      "fcf": 1068249984
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit Inc.",
+      "price": 269.08,
+      "pe": 16.427351,
+      "roe": 22.496,
+      "debt_equity": 33.448,
+      "market_cap": 73603334144,
+      "fcf": 5232000000
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "price": 95.48,
+      "pe": 56.833336,
+      "roe": 16.07,
+      "debt_equity": 20.728,
+      "market_cap": 98469298176,
+      "fcf": 5108125184
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "price": 592.92,
+      "pe": 55.777985,
+      "roe": 39.692003,
+      "debt_equity": 30.399,
+      "market_cap": 470754394112,
+      "fcf": 3040375040
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "price": 1043.19,
+      "pe": 49.13754,
+      "roe": 39.823002,
+      "debt_equity": 14.902,
+      "market_cap": 1176440799232,
+      "fcf": 2893499904
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation",
+      "price": 374.18,
+      "pe": 70.86742,
+      "roe": 66.762,
+      "debt_equity": 35.282,
+      "market_cap": 467938639872,
+      "fcf": 4352341504
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices, Inc.",
+      "price": 414.45,
+      "pe": 61.4911,
+      "roe": 9.639000000000001,
+      "debt_equity": 25.81,
+      "market_cap": 201873227776,
+      "fcf": 3868954624
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "price": 238.73,
+      "pe": 67.43785,
+      "roe": 94.975996,
+      "debt_equity": 105.4,
+      "market_cap": 311847059456,
+      "fcf": 2890187008
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys, Inc.",
+      "price": 461.74,
+      "pe": 106.147125,
+      "roe": 3.8240000000000003,
+      "debt_equity": 35.574,
+      "market_cap": 88413659136,
+      "fcf": 3538958592
+    },
+    {
+      "ticker": "CDNS",
+      "name": "Cadence Design Systems, Inc.",
+      "price": 389.6,
+      "pe": 90.39443,
+      "roe": 20.656,
+      "debt_equity": 46.992,
+      "market_cap": 107457912832,
+      "fcf": 1499152256
+    },
+    {
+      "ticker": "MCHP",
+      "name": "Microchip Technology Incorporat",
+      "price": 94.11,
+      "pe": 427.77274,
+      "roe": 3.405,
+      "debt_equity": 87.715,
+      "market_cap": 51015081984,
+      "fcf": 1139912448
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet, Inc.",
+      "price": 144.14,
+      "pe": 56.085606,
+      "roe": 1.32392,
+      "debt_equity": 57.31,
+      "market_cap": 105603940352,
+      "fcf": 1813049984
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "price": 399.53,
+      "pe": 30.062452,
+      "roe": 12.175999599999999,
+      "debt_equity": 73.982,
+      "market_cap": 362830921728,
+      "fcf": 17687500800
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "price": 234.2,
+      "pe": 27.13789,
+      "roe": 26.416,
+      "debt_equity": 67.73,
+      "market_cap": 563770163200,
+      "fcf": 12511375360
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly and Company",
+      "price": 1112.0,
+      "pe": 39.474617,
+      "roe": 1.07459,
+      "debt_equity": 139.015,
+      "market_cap": 991616434176,
+      "fcf": 9156599808
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck & Company, Inc.",
+      "price": 115.44,
+      "pe": 32.51831,
+      "roe": 18.944,
+      "debt_equity": 106.936,
+      "market_cap": 285116563456,
+      "fcf": 14049250304
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie Inc.",
+      "price": 221.23,
+      "pe": 107.917076,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 390867582976,
+      "fcf": 20811624448
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer, Inc.",
+      "price": 25.92,
+      "pe": 19.78626,
+      "roe": 8.3100006,
+      "debt_equity": 71.602,
+      "market_cap": 147729596416,
+      "fcf": 12376625152
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher Scientific Inc",
+      "price": 461.69,
+      "pe": 25.367582,
+      "roe": 13.523,
+      "debt_equity": 82.903,
+      "market_cap": 171573919744,
+      "fcf": 5520625152
+    },
+    {
+      "ticker": "ABT",
+      "name": "Abbott Laboratories",
+      "price": 88.5,
+      "pe": 24.789917,
+      "roe": 12.333999599999999,
+      "debt_equity": 64.773,
+      "market_cap": 154150453248,
+      "fcf": 6341125120
+    },
+    {
+      "ticker": "DHR",
+      "name": "Danaher Corporation",
+      "price": 177.76,
+      "pe": 34.382977,
+      "roe": 7.08,
+      "debt_equity": 37.17,
+      "market_cap": 125813301248,
+      "fcf": 4568500224
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol-Myers Squibb Company",
+      "price": 55.28,
+      "pe": 15.484593,
+      "roe": 38.731998000000004,
+      "debt_equity": 230.967,
+      "market_cap": 112885702656,
+      "fcf": 9851750400
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen Inc.",
+      "price": 341.66,
+      "pe": 23.775923,
+      "roe": 1.01318,
+      "debt_equity": 623.754,
+      "market_cap": 184396742656,
+      "fcf": 7436624896
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences, Inc.",
+      "price": 125.45,
+      "pe": 17.068027,
+      "roe": 43.36,
+      "debt_equity": 94.635,
+      "market_cap": 155754938368,
+      "fcf": 7934125056
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical, Inc.",
+      "price": 402.18,
+      "pe": 48.927006,
+      "roe": 17.232999,
+      "debt_equity": null,
+      "market_cap": 142437203968,
+      "fcf": 2254087424
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorpor",
+      "price": 458.99,
+      "pe": 27.223604,
+      "roe": 24.197,
+      "debt_equity": 10.26,
+      "market_cap": 116494147584,
+      "fcf": 2783225088
+    },
+    {
+      "ticker": "ZTS",
+      "name": "Zoetis Inc.",
+      "price": 77.26,
+      "pe": 12.665574,
+      "roe": 67.74799999999999,
+      "debt_equity": 286.236,
+      "market_cap": 32389566464,
+      "fcf": 1780875008
+    },
+    {
+      "ticker": "SYK",
+      "name": "Stryker Corporation",
+      "price": 301.14,
+      "pe": 34.894554,
+      "roe": 15.2,
+      "debt_equity": 66.295,
+      "market_cap": 115445268480,
+      "fcf": 4359875072
+    },
+    {
+      "ticker": "BDX",
+      "name": "Becton, Dickinson and Company",
+      "price": 141.61,
+      "pe": 24.713787,
+      "roe": 6.672000000000001,
+      "debt_equity": 71.599,
+      "market_cap": 39019278336,
+      "fcf": 4531250176
+    },
+    {
+      "ticker": "MDT",
+      "name": "Medtronic plc.",
+      "price": 78.14,
+      "pe": 20.72679,
+      "roe": 9.929,
+      "debt_equity": 57.06,
+      "market_cap": 100322770944,
+      "fcf": null
+    },
+    {
+      "ticker": "CI",
+      "name": "The Cigna Group",
+      "price": 285.09,
+      "pe": 11.39904,
+      "roe": 16.268998,
+      "debt_equity": 72.805,
+      "market_cap": 75415543808,
+      "fcf": 6923375104
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health, Inc.",
+      "price": 391.27,
+      "pe": 16.586266,
+      "roe": 12.086,
+      "debt_equity": 72.299,
+      "market_cap": 84969119744,
+      "fcf": 4298625024
     },
     {
       "ticker": "BRK.B",
@@ -84,36 +664,6 @@
       "fcf": 20839749632
     },
     {
-      "ticker": "JNJ",
-      "name": "Johnson & Johnson",
-      "price": 234.2,
-      "pe": 27.13789,
-      "roe": 26.416,
-      "debt_equity": 67.73,
-      "market_cap": 563770163200,
-      "fcf": 12511375360
-    },
-    {
-      "ticker": "UNH",
-      "name": "UnitedHealth Group Incorporated",
-      "price": 399.53,
-      "pe": 30.062452,
-      "roe": 12.175999599999999,
-      "debt_equity": 73.982,
-      "market_cap": 362830921728,
-      "fcf": 17687500800
-    },
-    {
-      "ticker": "PG",
-      "name": "Procter & Gamble Company (The)",
-      "price": 150.56,
-      "pe": 21.979563,
-      "roe": 31.112000000000002,
-      "debt_equity": 67.651,
-      "market_cap": 350593875968,
-      "fcf": 12733750272
-    },
-    {
       "ticker": "MA",
       "name": "Mastercard Incorporated",
       "price": 492.99,
@@ -122,6 +672,266 @@
       "debt_equity": 282.059,
       "market_cap": 435598000128,
       "fcf": 16148124672
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America Corporation",
+      "price": 56.53,
+      "pe": 14.027294,
+      "roe": 10.644,
+      "debt_equity": null,
+      "market_cap": 401170268160,
+      "fcf": null
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo & Company",
+      "price": 83.81,
+      "pe": 12.953632,
+      "roe": 12.028,
+      "debt_equity": null,
+      "market_cap": 256474464256,
+      "fcf": null
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs Group, Inc. (The)",
+      "price": 1099.14,
+      "pe": 20.075617,
+      "roe": 14.548,
+      "debt_equity": 678.596,
+      "market_cap": 324254466048,
+      "fcf": null
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "price": 224.96,
+      "pe": 20.376812,
+      "roe": 16.387999999999998,
+      "debt_equity": 502.246,
+      "market_cap": 354826027008,
+      "fcf": null
+    },
+    {
+      "ticker": "BLK",
+      "name": "BlackRock, Inc.",
+      "price": 1057.38,
+      "pe": 26.587378,
+      "roe": 11.8990004,
+      "debt_equity": 23.635,
+      "market_cap": 172192759808,
+      "fcf": 7082375168
+    },
+    {
+      "ticker": "SPGI",
+      "name": "S&P Global Inc.",
+      "price": 418.02,
+      "pe": 26.440226,
+      "roe": 13.939999,
+      "debt_equity": 38.392,
+      "market_cap": 123733917696,
+      "fcf": 5298874880
+    },
+    {
+      "ticker": "AXP",
+      "name": "American Express Company",
+      "price": 340.54,
+      "pe": 21.270456,
+      "roe": 34.419,
+      "debt_equity": 177.847,
+      "market_cap": 232359460864,
+      "fcf": null
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup, Inc.",
+      "price": 143.78,
+      "pe": 17.772558,
+      "roe": 7.649,
+      "debt_equity": null,
+      "market_cap": 245227847680,
+      "fcf": null
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
+      "price": 57.91,
+      "pe": 12.140461,
+      "roe": 12.350000399999999,
+      "debt_equity": null,
+      "market_cap": 90208239616,
+      "fcf": null
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC Financial Services Group, I",
+      "price": 233.13,
+      "pe": 13.5540695,
+      "roe": 12.104,
+      "debt_equity": null,
+      "market_cap": 93616766976,
+      "fcf": null
+    },
+    {
+      "ticker": "TFC",
+      "name": "Truist Financial Corporation",
+      "price": 48.17,
+      "pe": 11.923267,
+      "roe": 8.579001,
+      "debt_equity": null,
+      "market_cap": 60014002176,
+      "fcf": null
+    },
+    {
+      "ticker": "COF",
+      "name": "Capital One Financial Corporati",
+      "price": 200.87,
+      "pe": 61.806152,
+      "roe": 3.259,
+      "debt_equity": null,
+      "market_cap": 124999950336,
+      "fcf": null
+    },
+    {
+      "ticker": "BK",
+      "name": "The Bank of New York Mellon Cor",
+      "price": 137.16,
+      "pe": 17.01737,
+      "roe": 13.472000000000001,
+      "debt_equity": null,
+      "market_cap": 94143750144,
+      "fcf": null
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street Corporation",
+      "price": 171.1,
+      "pe": 17.370558,
+      "roe": 11.261000000000001,
+      "debt_equity": null,
+      "market_cap": 47354843136,
+      "fcf": null
+    },
+    {
+      "ticker": "NTRS",
+      "name": "Northern Trust Corporation",
+      "price": 174.95,
+      "pe": 18.31937,
+      "roe": 14.462,
+      "debt_equity": null,
+      "market_cap": 32374018048,
+      "fcf": null
+    },
+    {
+      "ticker": "SCHW",
+      "name": "Charles Schwab Corporation (The",
+      "price": 94.51,
+      "pe": 18.789265,
+      "roe": 19.083,
+      "debt_equity": 120.766,
+      "market_cap": 164365697024,
+      "fcf": null
+    },
+    {
+      "ticker": "CME",
+      "name": "CME Group Inc.",
+      "price": 252.54,
+      "pe": 21.94092,
+      "roe": 15.919,
+      "debt_equity": 14.059,
+      "market_cap": 91248443392,
+      "fcf": 3030237440
+    },
+    {
+      "ticker": "ICE",
+      "name": "Intercontinental Exchange Inc.",
+      "price": 134.59,
+      "pe": 19.590975,
+      "roe": 13.852999999999998,
+      "debt_equity": 70.986,
+      "market_cap": 76112330752,
+      "fcf": 3743124992
+    },
+    {
+      "ticker": "MCO",
+      "name": "Moody's Corporation",
+      "price": 456.22,
+      "pe": 32.680515,
+      "roe": 71.36099999999999,
+      "debt_equity": 235.539,
+      "market_cap": 79690883072,
+      "fcf": 2266125056
+    },
+    {
+      "ticker": "MSCI",
+      "name": "MSCI Inc.",
+      "price": 596.89,
+      "pe": 34.069065,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 43410374656,
+      "fcf": 1206103936
+    },
+    {
+      "ticker": "AIG",
+      "name": "American International Group, I",
+      "price": 74.77,
+      "pe": 13.163733,
+      "roe": 7.722999999999999,
+      "debt_equity": 22.647,
+      "market_cap": 39643516928,
+      "fcf": 9517249536
+    },
+    {
+      "ticker": "MET",
+      "name": "MetLife, Inc.",
+      "price": 85.85,
+      "pe": 16.605415,
+      "roe": 13.014000000000001,
+      "debt_equity": 178.019,
+      "market_cap": 55239049216,
+      "fcf": -17429749760
+    },
+    {
+      "ticker": "PRU",
+      "name": "Prudential Financial, Inc.",
+      "price": 107.01,
+      "pe": 11.009259,
+      "roe": 10.711,
+      "debt_equity": 158.972,
+      "market_cap": 37167263744,
+      "fcf": 10378999808
+    },
+    {
+      "ticker": "AFL",
+      "name": "AFLAC Incorporated",
+      "price": 116.24,
+      "pe": 13.284572,
+      "roe": 16.469,
+      "debt_equity": 48.276,
+      "market_cap": 59164401664,
+      "fcf": 4923125248
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate Corporation (The)",
+      "price": 221.66,
+      "pe": 4.903982,
+      "roe": 45.221000000000004,
+      "debt_equity": 23.719,
+      "market_cap": 57059921920,
+      "fcf": 12428999680
+    },
+    {
+      "ticker": "TRV",
+      "name": "The Travelers Companies, Inc.",
+      "price": 306.07,
+      "pe": 9.106516,
+      "roe": 25.272,
+      "debt_equity": 28.975,
+      "market_cap": 65084162048,
+      "fcf": 13304375296
     },
     {
       "ticker": "HD",
@@ -134,34 +944,184 @@
       "fcf": 10128249856
     },
     {
-      "ticker": "CVX",
-      "name": "Chevron Corporation",
-      "price": 177.58,
-      "pe": 30.883478,
-      "roe": 6.638,
-      "debt_equity": 23.989,
-      "market_cap": 353667907584,
-      "fcf": 11776499712
-    },
-    {
-      "ticker": "MRK",
-      "name": "Merck & Company, Inc.",
-      "price": 115.44,
-      "pe": 32.51831,
-      "roe": 18.944,
-      "debt_equity": 106.936,
-      "market_cap": 285116563456,
-      "fcf": 14049250304
-    },
-    {
-      "ticker": "ABBV",
-      "name": "AbbVie Inc.",
-      "price": 221.23,
-      "pe": 107.917076,
+      "ticker": "MCD",
+      "name": "McDonald's Corporation",
+      "price": 283.82,
+      "pe": 23.417492,
       "roe": null,
       "debt_equity": null,
-      "market_cap": 390867582976,
-      "fcf": 20811624448
+      "market_cap": 201655779328,
+      "fcf": 5952249856
+    },
+    {
+      "ticker": "NKE",
+      "name": "Nike, Inc.",
+      "price": 44.19,
+      "pe": 29.072369,
+      "roe": 16.016,
+      "debt_equity": 79.333,
+      "market_cap": 65440395264,
+      "fcf": 1313874944
+    },
+    {
+      "ticker": "SBUX",
+      "name": "Starbucks Corporation",
+      "price": 99.82,
+      "pe": 76.19848,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 113764851712,
+      "fcf": -1304087552
+    },
+    {
+      "ticker": "LOW",
+      "name": "Lowe's Companies, Inc.",
+      "price": 217.27,
+      "pe": 18.366018,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 121888473088,
+      "fcf": 4816124928
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target Corporation",
+      "price": 127.81,
+      "pe": 16.906084,
+      "roe": 22.015,
+      "debt_equity": 117.548,
+      "market_cap": 58050162688,
+      "fcf": 3141250048
+    },
+    {
+      "ticker": "TJX",
+      "name": "TJX Companies, Inc. (The)",
+      "price": 164.13,
+      "pe": 31.931908,
+      "roe": 61.25000000000001,
+      "debt_equity": 136.307,
+      "market_cap": 181315141632,
+      "fcf": 4314250240
+    },
+    {
+      "ticker": "CMG",
+      "name": "Chipotle Mexican Grill, Inc.",
+      "price": 31.86,
+      "pe": 29.229357,
+      "roe": 49.231997,
+      "debt_equity": 217.885,
+      "market_cap": 40867905536,
+      "fcf": 1087909760
+    },
+    {
+      "ticker": "ORLY",
+      "name": "O'Reilly Automotive, Inc.",
+      "price": 88.4,
+      "pe": 28.7013,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 73258409984,
+      "fcf": 1330813184
+    },
+    {
+      "ticker": "AZO",
+      "name": "AutoZone, Inc.",
+      "price": 3059.63,
+      "pe": 21.037058,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 50083082240,
+      "fcf": 903784256
+    },
+    {
+      "ticker": "BKNG",
+      "name": "Booking Holdings Inc. Common St",
+      "price": 171.63,
+      "pe": 22.612648,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 132992393216,
+      "fcf": 7075125248
+    },
+    {
+      "ticker": "ABNB",
+      "name": "Airbnb, Inc.",
+      "price": 140.54,
+      "pe": 34.701233,
+      "roe": 32.324999999999996,
+      "debt_equity": 33.185,
+      "market_cap": 83411173376,
+      "fcf": 3191000064
+    },
+    {
+      "ticker": "MAR",
+      "name": "Marriott International",
+      "price": 394.61,
+      "pe": 41.36373,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 104054161408,
+      "fcf": 1796875008
+    },
+    {
+      "ticker": "HLT",
+      "name": "Hilton Worldwide Holdings Inc.",
+      "price": 349.3,
+      "pe": 53.32824,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 79517573120,
+      "fcf": 1684499968
+    },
+    {
+      "ticker": "MGM",
+      "name": "MGM Resorts International",
+      "price": 46.94,
+      "pe": 64.30137,
+      "roe": 13.488,
+      "debt_equity": 951.186,
+      "market_cap": 12009656320,
+      "fcf": 528360256
+    },
+    {
+      "ticker": "LVS",
+      "name": "Las Vegas Sands Corp.",
+      "price": 48.13,
+      "pe": 17.760147,
+      "roe": 90.455,
+      "debt_equity": 981.405,
+      "market_cap": 31892733952,
+      "fcf": 1622625024
+    },
+    {
+      "ticker": "WYNN",
+      "name": "Wynn Resorts, Limited",
+      "price": 102.31,
+      "pe": 29.315186,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": 10618420224,
+      "fcf": 356894624
+    },
+    {
+      "ticker": "CCL",
+      "name": "Carnival Corporation Ltd.",
+      "price": 29.91,
+      "pe": 13.176211,
+      "roe": 27.853,
+      "debt_equity": 203.901,
+      "market_cap": 41429524480,
+      "fcf": 2174000128
+    },
+    {
+      "ticker": "PG",
+      "name": "Procter & Gamble Company (The)",
+      "price": 150.56,
+      "pe": 21.979563,
+      "roe": 31.112000000000002,
+      "debt_equity": 67.651,
+      "market_cap": 350593875968,
+      "fcf": 12733750272
     },
     {
       "ticker": "KO",
@@ -204,104 +1164,654 @@
       "fcf": 6862249984
     },
     {
-      "ticker": "MCD",
-      "name": "McDonald's Corporation",
-      "price": 283.82,
-      "pe": 23.417492,
+      "ticker": "PM",
+      "name": "Philip Morris International Inc",
+      "price": 179.44,
+      "pe": 25.273241,
       "roe": null,
       "debt_equity": null,
-      "market_cap": 201655779328,
-      "fcf": 5952249856
+      "market_cap": 279667802112,
+      "fcf": 8575249920
     },
     {
-      "ticker": "DIS",
-      "name": "Walt Disney Company (The)",
-      "price": 100.86,
-      "pe": 16.1376,
-      "roe": 11.01,
-      "debt_equity": 41.069,
-      "market_cap": 175144550400,
-      "fcf": 3751375104
-    },
-    {
-      "ticker": "VZ",
-      "name": "Verizon Communications Inc.",
-      "price": 45.84,
-      "pe": 11.180488,
-      "roe": 17.198,
-      "debt_equity": 192.045,
-      "market_cap": 191407620096,
-      "fcf": 19608500224
-    },
-    {
-      "ticker": "T",
-      "name": "AT&T Inc.",
-      "price": 22.44,
-      "pe": 7.3815794,
-      "roe": 18.370001,
-      "debt_equity": 125.175,
-      "market_cap": 155920728064,
-      "fcf": 8849000448
-    },
-    {
-      "ticker": "BAC",
-      "name": "Bank of America Corporation",
-      "price": 56.53,
-      "pe": 14.027294,
-      "roe": 10.644,
+      "ticker": "MO",
+      "name": "Altria Group, Inc.",
+      "price": 68.95,
+      "pe": 14.394571,
+      "roe": null,
       "debt_equity": null,
-      "market_cap": 401170268160,
-      "fcf": null
+      "market_cap": 115138994176,
+      "fcf": 8542875136
     },
     {
-      "ticker": "WFC",
-      "name": "Wells Fargo & Company",
-      "price": 83.81,
-      "pe": 12.953632,
-      "roe": 12.028,
+      "ticker": "CL",
+      "name": "Colgate-Palmolive Company",
+      "price": 90.58,
+      "pe": 35.10853,
+      "roe": 3.6357698,
+      "debt_equity": 1640.535,
+      "market_cap": 72481153024,
+      "fcf": 3319500032
+    },
+    {
+      "ticker": "KMB",
+      "name": "Kimberly-Clark Corporation",
+      "price": 101.47,
+      "pe": 19.626692,
+      "roe": 1.11727,
+      "debt_equity": 371.264,
+      "market_cap": 33681987584,
+      "fcf": 1054625024
+    },
+    {
+      "ticker": "GIS",
+      "name": "General Mills, Inc.",
+      "price": 33.36,
+      "pe": 8.156479,
+      "roe": 23.591,
+      "debt_equity": 217.629,
+      "market_cap": 17803606016,
+      "fcf": 2263375104
+    },
+    {
+      "ticker": "K",
+      "name": "K",
+      "price": null,
+      "pe": null,
+      "roe": null,
       "debt_equity": null,
-      "market_cap": 256474464256,
+      "market_cap": null,
       "fcf": null
     },
     {
-      "ticker": "C",
-      "name": "Citigroup, Inc.",
-      "price": 143.78,
-      "pe": 17.772558,
-      "roe": 7.649,
+      "ticker": "CAG",
+      "name": "ConAgra Brands, Inc.",
+      "price": 13.16,
+      "pe": null,
+      "roe": -0.511,
+      "debt_equity": 89.813,
+      "market_cap": 6296232960,
+      "fcf": 654675008
+    },
+    {
+      "ticker": "SJM",
+      "name": "The J.M. Smucker Company",
+      "price": 112.96,
+      "pe": null,
+      "roe": -2.386,
+      "debt_equity": 128.609,
+      "market_cap": 12046994432,
+      "fcf": 1005774976
+    },
+    {
+      "ticker": "HSY",
+      "name": "The Hershey Company",
+      "price": 175.31,
+      "pe": 32.646183,
+      "roe": 23.233999999999998,
+      "debt_equity": 120.011,
+      "market_cap": 35560472576,
+      "fcf": 1527240576
+    },
+    {
+      "ticker": "MKC",
+      "name": "McCormick & Company, Incorporat",
+      "price": 46.49,
+      "pe": 7.6213117,
+      "roe": 25.346999999999998,
+      "debt_equity": 65.158,
+      "market_cap": 12498521088,
+      "fcf": 372775008
+    },
+    {
+      "ticker": "CHD",
+      "name": "Church & Dwight Company, Inc.",
+      "price": 97.41,
+      "pe": 32.042767,
+      "roe": 16.779,
+      "debt_equity": 56.794,
+      "market_cap": 23080677376,
+      "fcf": 1128824960
+    },
+    {
+      "ticker": "CLX",
+      "name": "Clorox Company (The)",
+      "price": 94.97,
+      "pe": 15.442276,
+      "roe": 5.46099,
+      "debt_equity": 4876.087,
+      "market_cap": 11483900928,
+      "fcf": 62750000
+    },
+    {
+      "ticker": "EL",
+      "name": "Estee Lauder Companies, Inc. (T",
+      "price": 82.46,
+      "pe": null,
+      "roe": -5.949,
+      "debt_equity": 232.908,
+      "market_cap": 29833607168,
+      "fcf": 1807624960
+    },
+    {
+      "ticker": "MDLZ",
+      "name": "Mondelez International, Inc.",
+      "price": 60.86,
+      "pe": 30.128714,
+      "roe": 10.1610005,
+      "debt_equity": 83.793,
+      "market_cap": 78122926080,
+      "fcf": 2847500032
+    },
+    {
+      "ticker": "MNST",
+      "name": "Monster Beverage Corporation",
+      "price": 91.66,
+      "pe": 44.280197,
+      "roe": 26.654,
+      "debt_equity": 1.082,
+      "market_cap": 89644228608,
+      "fcf": 1684340480
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "price": 177.58,
+      "pe": 30.883478,
+      "roe": 6.638,
+      "debt_equity": 23.989,
+      "market_cap": 353667907584,
+      "fcf": 11776499712
+    },
+    {
+      "ticker": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "price": 140.74,
+      "pe": 23.693604,
+      "roe": 9.873,
+      "debt_equity": 18.261,
+      "market_cap": 583359922176,
+      "fcf": 11630499840
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "price": 111.21,
+      "pe": 18.849152,
+      "roe": 11.2840004,
+      "debt_equity": 36.143,
+      "market_cap": 135486480384,
+      "fcf": 5289124864
+    },
+    {
+      "ticker": "SLB",
+      "name": "SLB Limited",
+      "price": 50.33,
+      "pe": 22.171806,
+      "roe": 14.066,
+      "debt_equity": 42.515,
+      "market_cap": 75246256128,
+      "fcf": 3043124992
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources, Inc.",
+      "price": 133.25,
+      "pe": 13.102262,
+      "roe": 18.195,
+      "debt_equity": 26.873,
+      "market_cap": 70972751872,
+      "fcf": 2864250112
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum Corporation",
+      "price": 244.61,
+      "pe": 16.113966,
+      "roe": 27.458,
+      "debt_equity": 146.523,
+      "market_cap": 71410622464,
+      "fcf": 3518749952
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "price": 167.17,
+      "pe": 16.535114,
+      "roe": 14.546999999999999,
+      "debt_equity": 91.385,
+      "market_cap": 67024306176,
+      "fcf": -1134499968
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy Corporation",
+      "price": 239.77,
+      "pe": 17.501461,
+      "roe": 15.85,
+      "debt_equity": 42.664,
+      "market_cap": 71195574272,
+      "fcf": 4786625024
+    },
+    {
+      "ticker": "OXY",
+      "name": "Occidental Petroleum Corporatio",
+      "price": 53.04,
+      "pe": 71.675674,
+      "roe": 4.053,
+      "debt_equity": 41.989,
+      "market_cap": 52755423232,
+      "fcf": 3033374976
+    },
+    {
+      "ticker": "HAL",
+      "name": "Halliburton Company",
+      "price": 36.23,
+      "pe": 20.016575,
+      "roe": 14.626999,
+      "debt_equity": 74.651,
+      "market_cap": 30266460160,
+      "fcf": 2027000064
+    },
+    {
+      "ticker": "BKR",
+      "name": "Baker Hughes Company",
+      "price": 60.07,
+      "pe": 19.191692,
+      "roe": 17.183999999999997,
+      "debt_equity": 82.935,
+      "market_cap": 59593564160,
+      "fcf": 3151249920
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy Corporation",
+      "price": 42.58,
+      "pe": 11.860725,
+      "roe": 15.178001,
+      "debt_equity": 56.404,
+      "market_cap": 49111908352,
+      "fcf": 1600499968
+    },
+    {
+      "ticker": "FANG",
+      "name": "Diamondback Energy, Inc.",
+      "price": 185.48,
+      "pe": 189.2653,
+      "roe": 0.47400002,
+      "debt_equity": 32.594,
+      "market_cap": 52177993728,
+      "fcf": 1397250048
+    },
+    {
+      "ticker": "HES",
+      "name": "HES",
+      "price": null,
+      "pe": null,
+      "roe": null,
       "debt_equity": null,
-      "market_cap": 245227847680,
+      "market_cap": null,
       "fcf": null
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs Group, Inc. (The)",
-      "price": 1099.14,
-      "pe": 20.075617,
-      "roe": 14.548,
-      "debt_equity": 678.596,
-      "market_cap": 324254466048,
+      "ticker": "KMI",
+      "name": "Kinder Morgan, Inc.",
+      "price": 31.33,
+      "pe": 21.026846,
+      "roe": 10.597,
+      "debt_equity": 98.84,
+      "market_cap": 69703794688,
+      "fcf": 1646875008
+    },
+    {
+      "ticker": "WMB",
+      "name": "Williams Companies, Inc. (The)",
+      "price": 71.25,
+      "pe": 31.25,
+      "roe": 19.656000000000002,
+      "debt_equity": 199.855,
+      "market_cap": 87138623488,
+      "fcf": -190250000
+    },
+    {
+      "ticker": "OKE",
+      "name": "ONEOK, Inc.",
+      "price": 85.58,
+      "pe": 15.254902,
+      "roe": 15.903,
+      "debt_equity": 149.644,
+      "market_cap": 53918212096,
+      "fcf": 454375008
+    },
+    {
+      "ticker": "TRGP",
+      "name": "Targa Resources, Inc.",
+      "price": 260.74,
+      "pe": 26.633299,
+      "roe": 74.097997,
+      "debt_equity": 585.249,
+      "market_cap": 55966248960,
+      "fcf": -318550016
+    },
+    {
+      "ticker": "LNG",
+      "name": "Cheniere Energy, Inc.",
+      "price": 231.41,
+      "pe": 39.15567,
+      "roe": 28.92,
+      "debt_equity": 321.125,
+      "market_cap": 48492400640,
+      "fcf": 1722749952
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Corporation",
+      "price": 33.93,
+      "pe": 7.909091,
+      "roe": 26.217000000000002,
+      "debt_equity": 61.314,
+      "market_cap": 11993245696,
+      "fcf": 1691250048
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar, Inc.",
+      "price": 955.92,
+      "pe": 47.700596,
+      "roe": 51.331,
+      "debt_equity": 230.793,
+      "market_cap": 440289067008,
+      "fcf": 3776624896
+    },
+    {
+      "ticker": "HON",
+      "name": "Honeywell International Inc.",
+      "price": 228.61,
+      "pe": 36.460926,
+      "roe": 24.264,
+      "debt_equity": 257.387,
+      "market_cap": 144859447296,
+      "fcf": 2936875008
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific Corporation",
+      "price": 258.05,
+      "pe": 21.256176,
+      "roe": 40.686,
+      "debt_equity": 162.246,
+      "market_cap": 153207685120,
+      "fcf": 4034374912
+    },
+    {
+      "ticker": "UPS",
+      "name": "United Parcel Service, Inc.",
+      "price": 105.13,
+      "pe": 17.011328,
+      "roe": 33.353,
+      "debt_equity": 181.508,
+      "market_cap": 89361154048,
+      "fcf": 4625500160
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "price": 192.58,
+      "pe": 36.199245,
+      "roe": 11.571,
+      "debt_equity": 57.229,
+      "market_cap": 259344285696,
+      "fcf": 7233375232
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin Corporation",
+      "price": 532.32,
+      "pe": 25.8032,
+      "roe": 67.64,
+      "debt_equity": 276.365,
+      "market_cap": 122733625344,
+      "fcf": 3987124992
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing Company (The)",
+      "price": 225.63,
+      "pe": 89.18182,
+      "roe": 1.69947,
+      "debt_equity": 828.696,
+      "market_cap": 177864654848,
+      "fcf": 2554249984
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "price": 357.03,
+      "pe": 44.35155,
+      "roe": 45.428002,
+      "debt_equity": 116.527,
+      "market_cap": 373035532288,
+      "fcf": 5667999744
+    },
+    {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "price": 588.47,
+      "pe": 33.2845,
+      "roe": 18.349001,
+      "debt_equity": 376.022,
+      "market_cap": 158950031360,
+      "fcf": 1098749952
+    },
+    {
+      "ticker": "MMM",
+      "name": "3M Company",
+      "price": 159.23,
+      "pe": 30.680153,
+      "roe": 71.458,
+      "debt_equity": 396.497,
+      "market_cap": 83049152512,
+      "fcf": 2322374912
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx Corporation",
+      "price": 325.93,
+      "pe": 17.401495,
+      "roe": 15.869,
+      "debt_equity": 140.994,
+      "market_cap": 77769097216,
+      "fcf": 894000000
+    },
+    {
+      "ticker": "NSC",
+      "name": "Norfolk Southern Corporation",
+      "price": 300.53,
+      "pe": 25.31845,
+      "roe": 17.615,
+      "debt_equity": 111.586,
+      "market_cap": 67497234432,
+      "fcf": 1298749952
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX Corporation",
+      "price": 45.57,
+      "pe": 27.957056,
+      "roe": 23.684,
+      "debt_equity": 143.06,
+      "market_cap": 84675387392,
+      "fcf": 1129874944
+    },
+    {
+      "ticker": "WM",
+      "name": "Waste Management, Inc.",
+      "price": 215.85,
+      "pe": 31.237339,
+      "roe": 29.936,
+      "debt_equity": 228.408,
+      "market_cap": 86680125440,
+      "fcf": 2136749952
+    },
+    {
+      "ticker": "RSG",
+      "name": "Republic Services, Inc.",
+      "price": 207.43,
+      "pe": 29.80316,
+      "roe": 18.346001,
+      "debt_equity": 117.578,
+      "market_cap": 63818760192,
+      "fcf": 1808875008
+    },
+    {
+      "ticker": "EMR",
+      "name": "Emerson Electric Company",
+      "price": 149.0,
+      "pe": 34.490738,
+      "roe": 12.328,
+      "debt_equity": 69.182,
+      "market_cap": 83454894080,
+      "fcf": 3272250112
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton Corporation, PLC",
+      "price": 409.64,
+      "pe": 40.043015,
+      "roe": 20.844999,
+      "debt_equity": 110.463,
+      "market_cap": 159063212032,
+      "fcf": 2646500096
+    },
+    {
+      "ticker": "PH",
+      "name": "Parker-Hannifin Corporation",
+      "price": 945.97,
+      "pe": 34.880898,
+      "roe": 24.841999,
+      "debt_equity": 65.554,
+      "market_cap": 119273938944,
+      "fcf": 2774481920
+    },
+    {
+      "ticker": "ITW",
+      "name": "Illinois Tool Works Inc.",
+      "price": 262.11,
+      "pe": 24.359663,
+      "roe": 96.848,
+      "debt_equity": 283.22,
+      "market_cap": 75409039360,
+      "fcf": 2215749888
+    },
+    {
+      "ticker": "CMI",
+      "name": "Cummins Inc.",
+      "price": 717.78,
+      "pe": 37.287273,
+      "roe": 21.993999,
+      "debt_equity": 61.621,
+      "market_cap": 99045801984,
+      "fcf": 1688625024
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics Corporation",
+      "price": 362.83,
+      "pe": 22.55003,
+      "roe": 17.974001,
+      "debt_equity": 37.701,
+      "market_cap": 98120179712,
+      "fcf": 5289500160
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman Corporation",
+      "price": 550.15,
+      "pe": 17.235277,
+      "roe": 28.511998,
+      "debt_equity": 102.682,
+      "market_cap": 78139719680,
+      "fcf": 2071624960
+    },
+    {
+      "ticker": "LHX",
+      "name": "L3Harris Technologies, Inc.",
+      "price": 313.17,
+      "pe": 33.966377,
+      "roe": null,
+      "debt_equity": 34.574,
+      "market_cap": 58341990400,
       "fcf": null
     },
     {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "price": 224.96,
-      "pe": 20.376812,
-      "roe": 16.387999999999998,
-      "debt_equity": 502.246,
-      "market_cap": 354826027008,
-      "fcf": null
+      "ticker": "TXT",
+      "name": "Textron Inc.",
+      "price": 92.69,
+      "pe": 17.688932,
+      "roe": 12.254,
+      "debt_equity": 52.674,
+      "market_cap": 16117769216,
+      "fcf": 622374976
     },
     {
-      "ticker": "BLK",
-      "name": "BlackRock, Inc.",
-      "price": 1057.38,
-      "pe": 26.587378,
-      "roe": 11.8990004,
-      "debt_equity": 23.635,
-      "market_cap": 172192759808,
-      "fcf": 7082375168
+      "ticker": "ROK",
+      "name": "Rockwell Automation, Inc.",
+      "price": 458.69,
+      "pe": 47.532646,
+      "roe": 27.183,
+      "debt_equity": 113.367,
+      "market_cap": 51040247808,
+      "fcf": 974499968
+    },
+    {
+      "ticker": "DOV",
+      "name": "Dover Corporation",
+      "price": 220.79,
+      "pe": 27.633291,
+      "roe": 14.998001,
+      "debt_equity": 43.927,
+      "market_cap": 29731891200,
+      "fcf": 840764352
+    },
+    {
+      "ticker": "XYL",
+      "name": "Xylem Inc.",
+      "price": 110.29,
+      "pe": 27.435324,
+      "roe": 8.724,
+      "debt_equity": 18.354,
+      "market_cap": 26215215104,
+      "fcf": 959124992
+    },
+    {
+      "ticker": "IEX",
+      "name": "IDEX Corporation",
+      "price": 223.69,
+      "pe": 33.090237,
+      "roe": 12.748000000000001,
+      "debt_equity": 46.915,
+      "market_cap": 16556428288,
+      "fcf": 525024992
+    },
+    {
+      "ticker": "FTV",
+      "name": "Fortive Corporation",
+      "price": 60.68,
+      "pe": 35.69412,
+      "roe": 6.814000000000001,
+      "debt_equity": 58.806,
+      "market_cap": 18498967552,
+      "fcf": 953612480
+    },
+    {
+      "ticker": "CARR",
+      "name": "Carrier Global Corporation",
+      "price": 69.49,
+      "pe": 46.326664,
+      "roe": 9.907,
+      "debt_equity": 91.102,
+      "market_cap": 57717030912,
+      "fcf": 849750016
     },
     {
       "ticker": "SPG",
@@ -324,64 +1834,754 @@
       "fcf": 1797902592
     },
     {
-      "ticker": "TGT",
-      "name": "Target Corporation",
-      "price": 127.81,
-      "pe": 16.906084,
-      "roe": 22.015,
-      "debt_equity": 117.548,
-      "market_cap": 58050162688,
-      "fcf": 3141250048
+      "ticker": "PLD",
+      "name": "Prologis, Inc.",
+      "price": 140.94,
+      "pe": 35.50126,
+      "roe": 6.844,
+      "debt_equity": 60.934,
+      "market_cap": 132066975744,
+      "fcf": 4854310400
     },
     {
-      "ticker": "LOW",
-      "name": "Lowe's Companies, Inc.",
-      "price": 217.27,
-      "pe": 18.366018,
+      "ticker": "AMT",
+      "name": "American Tower Corporation (REI",
+      "price": 181.09,
+      "pe": 29.208065,
+      "roe": 29.952,
+      "debt_equity": 444.55,
+      "market_cap": 84368572416,
+      "fcf": 4614362624
+    },
+    {
+      "ticker": "CCI",
+      "name": "Crown Castle Inc.",
+      "price": 85.77,
+      "pe": 36.189873,
       "roe": null,
       "debt_equity": null,
-      "market_cap": 121888473088,
-      "fcf": 4816124928
+      "market_cap": 37434482688,
+      "fcf": 1202875008
     },
     {
-      "ticker": "NKE",
-      "name": "Nike, Inc.",
-      "price": 44.19,
-      "pe": 29.072369,
-      "roe": 16.016,
-      "debt_equity": 79.333,
-      "market_cap": 65440395264,
-      "fcf": 1313874944
+      "ticker": "EQIX",
+      "name": "Equinix, Inc.",
+      "price": 1088.52,
+      "pe": 75.33011,
+      "roe": 10.059,
+      "debt_equity": 162.961,
+      "market_cap": 107354472448,
+      "fcf": 2725125120
     },
     {
-      "ticker": "SBUX",
-      "name": "Starbucks Corporation",
-      "price": 99.82,
-      "pe": 76.19848,
+      "ticker": "PSA",
+      "name": "Public Storage",
+      "price": 312.58,
+      "pe": 32.324715,
+      "roe": 20.175,
+      "debt_equity": 107.646,
+      "market_cap": 54882684928,
+      "fcf": 2337331968
+    },
+    {
+      "ticker": "WELL",
+      "name": "Welltower Inc.",
+      "price": 206.55,
+      "pe": 99.782616,
+      "roe": 3.665,
+      "debt_equity": 44.486,
+      "market_cap": 145806622720,
+      "fcf": 2600212736
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty Trust, Inc.",
+      "price": 187.08,
+      "pe": 49.623344,
+      "roe": 5.688,
+      "debt_equity": 76.592,
+      "market_cap": 66918342656,
+      "fcf": 3278001664
+    },
+    {
+      "ticker": "SBAC",
+      "name": "SBA Communications Corporation",
+      "price": 191.57,
+      "pe": 20.186514,
       "roe": null,
       "debt_equity": null,
-      "market_cap": 113764851712,
-      "fcf": -1304087552
+      "market_cap": 20318492672,
+      "fcf": -301849504
     },
     {
-      "ticker": "INTC",
-      "name": "Intel Corporation",
-      "price": 121.1,
+      "ticker": "AVB",
+      "name": "AvalonBay Communities, Inc.",
+      "price": 179.63,
+      "pe": 22.258986,
+      "roe": 9.719,
+      "debt_equity": 81.307,
+      "market_cap": 25484480512,
+      "fcf": 1392035584
+    },
+    {
+      "ticker": "EQR",
+      "name": "Equity Residential",
+      "price": 64.63,
+      "pe": 25.852,
+      "roe": 8.671,
+      "debt_equity": 78.42,
+      "market_cap": 24971479040,
+      "fcf": 1416540928
+    },
+    {
+      "ticker": "VTR",
+      "name": "Ventas, Inc.",
+      "price": 82.15,
+      "pe": 149.36363,
+      "roe": 2.1399999999999997,
+      "debt_equity": 93.736,
+      "market_cap": 39938842624,
+      "fcf": 1483115264
+    },
+    {
+      "ticker": "ESS",
+      "name": "Essex Property Trust, Inc.",
+      "price": 274.4,
+      "pe": 30.86614,
+      "roe": 10.5579995,
+      "debt_equity": 121.856,
+      "market_cap": 18913347584,
+      "fcf": 983003264
+    },
+    {
+      "ticker": "MAA",
+      "name": "Mid-America Apartment Communiti",
+      "price": 133.11,
+      "pe": 40.336365,
+      "roe": 6.711,
+      "debt_equity": 99.825,
+      "market_cap": 15883569152,
+      "fcf": 909082496
+    },
+    {
+      "ticker": "UDR",
+      "name": "UDR, Inc.",
+      "price": 37.65,
+      "pe": 25.612246,
+      "roe": 12.350000399999999,
+      "debt_equity": 142.368,
+      "market_cap": 13949915136,
+      "fcf": 1007130496
+    },
+    {
+      "ticker": "CPT",
+      "name": "Camden Property Trust",
+      "price": 109.35,
+      "pe": 30.544693,
+      "roe": 9.064999,
+      "debt_equity": 104.147,
+      "market_cap": 10835556352,
+      "fcf": 688079616
+    },
+    {
+      "ticker": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "price": 49.21,
       "pe": null,
-      "roe": -2.911,
-      "debt_equity": 36.028,
-      "market_cap": 608648560640,
-      "fcf": -8301250048
+      "roe": -4.144,
+      "debt_equity": 66.509,
+      "market_cap": 8575800320,
+      "fcf": 1408723072
     },
     {
-      "ticker": "IBM",
-      "name": "International Business Machines",
-      "price": 262.35,
-      "pe": 23.23738,
-      "roe": 35.772,
-      "debt_equity": 211.169,
-      "market_cap": 246578921472,
-      "fcf": 13080750080
+      "ticker": "BXP",
+      "name": "BXP, Inc.",
+      "price": 63.06,
+      "pe": 31.688442,
+      "roe": 5.525,
+      "debt_equity": 211.994,
+      "market_cap": 11244318720,
+      "fcf": 941118656
+    },
+    {
+      "ticker": "VNO",
+      "name": "Vornado Realty Trust",
+      "price": 36.46,
+      "pe": 9.98904,
+      "roe": 12.604000000000001,
+      "debt_equity": 126.133,
+      "market_cap": 7466716672,
+      "fcf": 1209429120
+    },
+    {
+      "ticker": "NEE",
+      "name": "NextEra Energy, Inc.",
+      "price": 85.73,
+      "pe": 21.758884,
+      "roe": 10.325,
+      "debt_equity": 156.686,
+      "market_cap": 178798952448,
+      "fcf": -18453374976
+    },
+    {
+      "ticker": "DUK",
+      "name": "Duke Energy Corporation (Holdin",
+      "price": 123.73,
+      "pe": 19.035385,
+      "roe": 9.661,
+      "debt_equity": 161.495,
+      "market_cap": 96459440128,
+      "fcf": -2246500096
+    },
+    {
+      "ticker": "SO",
+      "name": "Southern Company (The)",
+      "price": 92.53,
+      "pe": 23.66496,
+      "roe": 10.9910004,
+      "debt_equity": 190.431,
+      "market_cap": 104309170176,
+      "fcf": -3950000128
+    },
+    {
+      "ticker": "D",
+      "name": "Dominion Energy, Inc.",
+      "price": 68.02,
+      "pe": 20.064896,
+      "roe": 9.786999999999999,
+      "debt_equity": 154.901,
+      "market_cap": 59824439296,
+      "fcf": -9948250112
+    },
+    {
+      "ticker": "AEP",
+      "name": "American Electric Power Company",
+      "price": 128.27,
+      "pe": 18.974852,
+      "roe": 12.584999999999999,
+      "debt_equity": 157.099,
+      "market_cap": 69792350208,
+      "fcf": -6953449984
+    },
+    {
+      "ticker": "EXC",
+      "name": "Exelon Corporation",
+      "price": 45.56,
+      "pe": 16.688644,
+      "roe": 9.764000000000001,
+      "debt_equity": 174.794,
+      "market_cap": 46617362432,
+      "fcf": -2807749888
+    },
+    {
+      "ticker": "SRE",
+      "name": "DBA Sempra",
+      "price": 90.25,
+      "pe": 30.697279,
+      "roe": 5.689,
+      "debt_equity": 85.267,
+      "market_cap": 58997092352,
+      "fcf": -28243374080
+    },
+    {
+      "ticker": "XEL",
+      "name": "Xcel Energy Inc.",
+      "price": 77.46,
+      "pe": 22.322765,
+      "roe": 9.59,
+      "debt_equity": 164.845,
+      "market_cap": 48355921920,
+      "fcf": -7471625216
+    },
+    {
+      "ticker": "WEC",
+      "name": "WEC Energy Group, Inc.",
+      "price": 112.54,
+      "pe": 22.553108,
+      "roe": 11.679,
+      "debt_equity": 153.184,
+      "market_cap": 36657168384,
+      "fcf": -2067012480
+    },
+    {
+      "ticker": "ED",
+      "name": "Consolidated Edison, Inc.",
+      "price": 107.04,
+      "pe": 18.05059,
+      "roe": 8.732,
+      "debt_equity": 106.177,
+      "market_cap": 39447420928,
+      "fcf": -833249984
+    },
+    {
+      "ticker": "ES",
+      "name": "Eversource Energy (D/B/A)",
+      "price": 69.05,
+      "pe": 14.785868,
+      "roe": 10.911999999999999,
+      "debt_equity": 181.822,
+      "market_cap": 25968326656,
+      "fcf": 587291392
+    },
+    {
+      "ticker": "AWK",
+      "name": "American Water Works Company, I",
+      "price": 125.41,
+      "pe": 22.235817,
+      "roe": 10.217,
+      "debt_equity": 142.33,
+      "market_cap": 24490131456,
+      "fcf": -1896625024
+    },
+    {
+      "ticker": "DTE",
+      "name": "DTE Energy Company",
+      "price": 147.19,
+      "pe": 24.248764,
+      "roe": 10.423,
+      "debt_equity": 218.787,
+      "market_cap": 30619688960,
+      "fcf": -2188124928
+    },
+    {
+      "ticker": "PPL",
+      "name": "PPL Corporation",
+      "price": 35.33,
+      "pe": 21.674849,
+      "roe": 8.315999999999999,
+      "debt_equity": 135.116,
+      "market_cap": 26580539392,
+      "fcf": -1615124992
+    },
+    {
+      "ticker": "EIX",
+      "name": "Edison International",
+      "price": 70.9,
+      "pe": 7.706522,
+      "roe": 18.864,
+      "debt_equity": 226.101,
+      "market_cap": 27281891328,
+      "fcf": -1134000000
+    },
+    {
+      "ticker": "ETR",
+      "name": "Entergy Corporation",
+      "price": 110.86,
+      "pe": 28.280611,
+      "roe": 10.751,
+      "debt_equity": 192.883,
+      "market_cap": 50761334784,
+      "fcf": -3913097728
+    },
+    {
+      "ticker": "FE",
+      "name": "FirstEnergy Corp.",
+      "price": 46.14,
+      "pe": 25.076086,
+      "roe": 9.4610006,
+      "debt_equity": 198.922,
+      "market_cap": 26688813056,
+      "fcf": -1835124992
+    },
+    {
+      "ticker": "AEE",
+      "name": "Ameren Corporation",
+      "price": 108.92,
+      "pe": 19.589928,
+      "roe": 11.746999599999999,
+      "debt_equity": 155.674,
+      "market_cap": 30143784960,
+      "fcf": -1869374976
+    },
+    {
+      "ticker": "CMS",
+      "name": "CMS Energy Corporation",
+      "price": 73.31,
+      "pe": 20.30748,
+      "roe": 10.3719994,
+      "debt_equity": 189.842,
+      "market_cap": 22646896640,
+      "fcf": -2156000000
+    },
+    {
+      "ticker": "CNP",
+      "name": "CenterPoint Energy, Inc (Holdin",
+      "price": 42.63,
+      "pe": 26.153376,
+      "roe": 9.561,
+      "debt_equity": 215.591,
+      "market_cap": 27887245312,
+      "fcf": -4945375232
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc",
+      "price": 515.85,
+      "pe": 34.207558,
+      "roe": 18.229,
+      "debt_equity": 65.642,
+      "market_cap": 238501838848,
+      "fcf": 4694499840
+    },
+    {
+      "ticker": "APD",
+      "name": "Air Products and Chemicals, Inc",
+      "price": 281.75,
+      "pe": 29.720465,
+      "roe": 12.353,
+      "debt_equity": 101.611,
+      "market_cap": 62740283392,
+      "fcf": -3519237376
+    },
+    {
+      "ticker": "ECL",
+      "name": "Ecolab Inc.",
+      "price": 269.06,
+      "pe": 36.40866,
+      "roe": 22.427,
+      "debt_equity": 92.369,
+      "market_cap": 75723571200,
+      "fcf": 1586424960
+    },
+    {
+      "ticker": "SHW",
+      "name": "Sherwin-Williams Company (The)",
+      "price": 313.8,
+      "pe": 30.14409,
+      "roe": 60.723000000000006,
+      "debt_equity": 329.521,
+      "market_cap": 77394255872,
+      "fcf": 2140024960
+    },
+    {
+      "ticker": "FCX",
+      "name": "Freeport-McMoRan, Inc.",
+      "price": 69.06,
+      "pe": 36.53968,
+      "roe": 15.630999000000001,
+      "debt_equity": 33.008,
+      "market_cap": 99277873152,
+      "fcf": 1709874944
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont Corporation",
+      "price": 105.67,
+      "pe": 13.705577,
+      "roe": 25.832,
+      "debt_equity": 15.762,
+      "market_cap": 112808296448,
+      "fcf": 9804874752
+    },
+    {
+      "ticker": "DOW",
+      "name": "Dow Inc.",
+      "price": 32.5,
+      "pe": null,
+      "roe": -15.262,
+      "debt_equity": 117.133,
+      "market_cap": 23424096256,
+      "fcf": -675875008
+    },
+    {
+      "ticker": "DD",
+      "name": "DuPont de Nemours, Inc.",
+      "price": 47.95,
+      "pe": 126.18421,
+      "roe": 0.8959999999999999,
+      "debt_equity": 22.594,
+      "market_cap": 19422541824,
+      "fcf": -124750000
+    },
+    {
+      "ticker": "PPG",
+      "name": "PPG Industries, Inc.",
+      "price": 117.14,
+      "pe": 16.758226,
+      "roe": 20.748,
+      "debt_equity": 93.736,
+      "market_cap": 26110504960,
+      "fcf": 729000000
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor Corporation",
+      "price": 252.6,
+      "pe": 25.059525,
+      "roe": 12.285,
+      "debt_equity": 31.595,
+      "market_cap": 57527365632,
+      "fcf": -384100000
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics, Inc.",
+      "price": 270.13,
+      "pe": 28.95284,
+      "roe": 15.247,
+      "debt_equity": 45.994,
+      "market_cap": 38956199936,
+      "fcf": -31788876
+    },
+    {
+      "ticker": "VMC",
+      "name": "Vulcan Materials Company (Holdi",
+      "price": 294.82,
+      "pe": 34.889942,
+      "roe": 13.458,
+      "debt_equity": 61.249,
+      "market_cap": 38254338048,
+      "fcf": 244387504
+    },
+    {
+      "ticker": "MLM",
+      "name": "Martin Marietta Materials, Inc.",
+      "price": 591.08,
+      "pe": 37.035088,
+      "roe": 9.47,
+      "debt_equity": 50.35,
+      "market_cap": 35491930112,
+      "fcf": 841750016
+    },
+    {
+      "ticker": "PKG",
+      "name": "Packaging Corporation of Americ",
+      "price": 229.26,
+      "pe": 27.822815,
+      "roe": 16.313,
+      "debt_equity": 95.185,
+      "market_cap": 20426756096,
+      "fcf": 391424992
+    },
+    {
+      "ticker": "IP",
+      "name": "International Paper Company",
+      "price": 36.16,
+      "pe": null,
+      "roe": -16.036,
+      "debt_equity": 65.904,
+      "market_cap": 19147333632,
+      "fcf": 1711250048
+    },
+    {
+      "ticker": "BALL",
+      "name": "Ball Corporation",
+      "price": 57.72,
+      "pe": 16.827988,
+      "roe": 16.785999,
+      "debt_equity": 145.542,
+      "market_cap": 15367748608,
+      "fcf": 403500000
+    },
+    {
+      "ticker": "AVY",
+      "name": "Avery Dennison Corporation",
+      "price": 159.55,
+      "pe": 17.987598,
+      "roe": 30.857,
+      "debt_equity": 164.751,
+      "market_cap": 12204041216,
+      "fcf": 809049984
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries Holdings, Inc.",
+      "price": 105.85,
+      "pe": 9.536036,
+      "roe": 27.3,
+      "debt_equity": 43.847,
+      "market_cap": 16261658624,
+      "fcf": 1076375040
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company (The)",
+      "price": 22.51,
+      "pe": 160.78572,
+      "roe": 0.59399996,
+      "debt_equity": 48.19,
+      "market_cap": 7154728448,
+      "fcf": -289787488
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle Corporation",
+      "price": 166.56,
+      "pe": null,
+      "roe": -1.82,
+      "debt_equity": 19.845,
+      "market_cap": 19643195392,
+      "fcf": 716711744
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "price": 76.96,
+      "pe": 24.825808,
+      "roe": 48.494998,
+      "debt_equity": 53.788,
+      "market_cap": 324063068160,
+      "fcf": 25993676800
+    },
+    {
+      "ticker": "DIS",
+      "name": "Walt Disney Company (The)",
+      "price": 100.86,
+      "pe": 16.1376,
+      "roe": 11.01,
+      "debt_equity": 41.069,
+      "market_cap": 175144550400,
+      "fcf": 3751375104
+    },
+    {
+      "ticker": "CMCSA",
+      "name": "Comcast Corporation",
+      "price": 22.69,
+      "pe": 4.44902,
+      "roe": 20.918,
+      "debt_equity": 106.858,
+      "market_cap": 81053868032,
+      "fcf": 4013125120
+    },
+    {
+      "ticker": "VZ",
+      "name": "Verizon Communications Inc.",
+      "price": 45.84,
+      "pe": 11.180488,
+      "roe": 17.198,
+      "debt_equity": 192.045,
+      "market_cap": 191407620096,
+      "fcf": 19608500224
+    },
+    {
+      "ticker": "T",
+      "name": "AT&T Inc.",
+      "price": 22.44,
+      "pe": 7.3815794,
+      "roe": 18.370001,
+      "debt_equity": 125.175,
+      "market_cap": 155920728064,
+      "fcf": 8849000448
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US, Inc.",
+      "price": 181.31,
+      "pe": 19.288298,
+      "roe": 18.024999,
+      "debt_equity": 218.569,
+      "market_cap": 196214521856,
+      "fcf": 11147374592
+    },
+    {
+      "ticker": "CHTR",
+      "name": "Charter Communications, Inc.",
+      "price": 132.0,
+      "pe": 3.5714288,
+      "roe": 27.504998000000004,
+      "debt_equity": 459.525,
+      "market_cap": 20681543680,
+      "fcf": 2403624960
+    },
+    {
+      "ticker": "EA",
+      "name": "Electronic Arts Inc.",
+      "price": 203.02,
+      "pe": 57.840458,
+      "roe": 13.489999999999998,
+      "debt_equity": 27.41,
+      "market_cap": 50907570176,
+      "fcf": 2219124992
+    },
+    {
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive Software, ",
+      "price": 228.03,
+      "pe": null,
+      "roe": -10.5579995,
+      "debt_equity": 84.26,
+      "market_cap": 42337566720,
+      "fcf": 1447787520
+    },
+    {
+      "ticker": "OMC",
+      "name": "Omnicom Group Inc.",
+      "price": 76.31,
+      "pe": null,
+      "roe": 2.015,
+      "debt_equity": 110.574,
+      "market_cap": 21748822016,
+      "fcf": 5066650112
+    },
+    {
+      "ticker": "IPG",
+      "name": "IPG",
+      "price": null,
+      "pe": null,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": null,
+      "fcf": null
+    },
+    {
+      "ticker": "WBD",
+      "name": "Warner Bros. Discovery, Inc. - ",
+      "price": 26.24,
+      "pe": null,
+      "roe": -4.9590003000000005,
+      "debt_equity": 96.318,
+      "market_cap": 65787269120,
+      "fcf": 18466875392
+    },
+    {
+      "ticker": "PARA",
+      "name": "PARA",
+      "price": null,
+      "pe": null,
+      "roe": null,
+      "debt_equity": null,
+      "market_cap": null,
+      "fcf": null
+    },
+    {
+      "ticker": "NWSA",
+      "name": "News Corporation",
+      "price": 25.98,
+      "pe": 32.886074,
+      "roe": 6.524000000000001,
+      "debt_equity": 31.559,
+      "market_cap": 14142290944,
+      "fcf": 1744000000
+    },
+    {
+      "ticker": "NWS",
+      "name": "News Corporation",
+      "price": 29.6,
+      "pe": 37.468353,
+      "roe": 6.524000000000001,
+      "debt_equity": 31.559,
+      "market_cap": 16112849920,
+      "fcf": 1744000000
+    },
+    {
+      "ticker": "FOXA",
+      "name": "Fox Corporation",
+      "price": 51.32,
+      "pe": 13.505263,
+      "roe": 15.2,
+      "debt_equity": 67.867,
+      "market_cap": 21549299712,
+      "fcf": 1406499968
+    },
+    {
+      "ticker": "FOX",
+      "name": "Fox Corporation",
+      "price": 46.73,
+      "pe": 12.297368,
+      "roe": 15.2,
+      "debt_equity": 67.867,
+      "market_cap": 19621957632,
+      "fcf": 1406499968
     }
   ]
 }
